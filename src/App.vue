@@ -5,7 +5,7 @@
 <script lang="ts" setup>
 function handleScaned(value: string) {
   console.log('扫描内容：', value)
-  // alert('扫描内容：' + value)
+  alert('扫描内容：' + value)
 }
 </script>
 
