@@ -7,7 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    QrcodeScanner: (typeof import('./src/components/QrcodeScanner/index.vue'))['default']
-    SvgIcon: (typeof import('./src/components/SvgIcon/index.vue'))['default']
+    QrcodeScanner: typeof import('./src/components/QrcodeScanner/index.vue')['default']
+    SvgIcon: typeof import('./src/components/SvgIcon/index.vue')['default']
   }
 }
